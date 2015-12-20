@@ -132,13 +132,13 @@ article{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 4rem;
-	max-width: 30rem;
+	max-width: 38rem;
 	
 	display: flex;
 	flex-direction: column;
 }
 h2{
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin-bottom: .2rem;
 	padding: 0 .5rem;
 }
@@ -146,7 +146,8 @@ p, ul{
 	font-family: Roboto, 'Quicksand', sans-serif; 
 	margin-top: 0;
 	margin-bottom: 2.67rem;
-	font-size: .85rem;
+	line-height: 1.25rem;
+	font-size: 1rem;
 	padding: 0 .5rem;
 }
 
@@ -346,6 +347,26 @@ section.mini{
 }
 p.mini{
 	width: 100%;
+}
+
+h2.email{
+	margin-top: 3rem;
+	font-size: 2rem;
+	//text-align: left;
+	//padding-left: 3rem;
+	line-height: 3rem;
+}
+a.email{
+	display: inline-block;
+	//text-decoration: underline;
+	//transform: translate(0, -50px);
+	//transition: all .15s ease-in-out;
+}
+a.email:hover{
+	//transform: translateY(-1rem);
+	//border: solid 2px white;
+	color: black;
+	background: white;
 }
 /* MEDIA QUERIES -------------------------------------------------------------------------*/
 @media (max-width: 699px){ /* up to 699px wide */
