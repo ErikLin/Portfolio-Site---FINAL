@@ -275,7 +275,7 @@ section{
 	font-size: 3rem;
 }
 .projectName{
-	height: 25rem;
+	min-height: 25rem;
 }
 div.event{
 	width: 100%;
