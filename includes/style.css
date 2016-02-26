@@ -298,17 +298,19 @@ div.event{
 	margin-left: 20%;
 	text-align: right;
 	padding-right: 1.5rem;
+	line-height: 2rem;
 }
-.center{
+div.center{
 	position: absolute;
-	width: 0;
-	margin-left: calc(25% + 2.6px);
+	width: 2rem;
+/*	2.6rem*/
+	margin-left: calc(25% - .9rem);  
 	overflow: visible;
 	display: flex;
 	justify-content: center;
 	top: 5rem;
 }
-.center img{
+div.center img{
 	width: 2rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -432,16 +434,16 @@ div.event{
 	text-align: left;
 	padding-right: 0;
 }
-.center{
+div.center{
 	position: absolute;
 	width: 2rem;
-	margin-left: -2.65rem;
+	margin-left: -2.6rem;
 	overflow: visible;
 	display: flex;
 	justify-content: center;
 	top: 5rem;
 }
-.center img{
+div.center img{
 	float: left;
 	z-index: 50;
 	width: 2rem;
