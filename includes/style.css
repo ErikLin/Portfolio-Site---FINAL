@@ -133,7 +133,7 @@ article{
 	margin-right: auto;
 	margin-top: 4rem;
 	max-width: 38rem;
-	
+	overflow: visible;
 	display: flex;
 	flex-direction: column;
 }
@@ -176,19 +176,26 @@ a.more:hover{
 	position: relative;
 	overflow: auto;
 }
+
+div.flexIMG{
+	//display: inline-block;
+	width: 100%;
+	//max-height: 30rem;
+	
+	align-self: center;
+	
+}
 img{
 	margin-top: 0;
 	
-	width: auto;
+	max-width: 100%;
 	height: auto;
-	max-width: 40rem;
-	max-height: 30rem;
-	
 	align-self: center;
+	
 }
-img.long{
-	max-height: none;
-	height: 60rem;
+div.long{
+	max-width: 90%;
+	//height: 60rem;
 }
 /*
 *{
@@ -364,8 +371,8 @@ a.email:hover{
 /* MEDIA QUERIES -------------------------------------------------------------------------*/
 @media (max-width: 699px){ /* up to 699px wide */
 
-html{
-	font-size:14px;
+	html{
+		font-size:14px;
 	}
 	nav{
 	}
