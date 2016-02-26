@@ -2,4 +2,4 @@
 
 **Assignment:** Make a portfolio for yourself
 
-**[Live Site](eriklindsay.x10host.com)**
+**[Live Site](http://eriklindsay.x10host.com/index.html)**
